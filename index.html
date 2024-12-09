@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COT Login</title>
+    <link rel="icon" href="icons/scooter_icon.svg" type="img">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <img src="icons/cit logo.png" alt="cit-logo" class="logo">  
+                <h1>Register!</h1>
+                <span>Register using your RFID#</span>
+                <input type="text" placeholder="RFID #">
+                <input type="text" placeholder="Name">
+                <input type="password" placeholder="Password">
+                <button>Register</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <img src="icons/cit logo.png" alt="cit-logo" class="logo">
+                <h1>Login</h1>
+                <span>Login using your RFID#</span>
+                <input type="text" placeholder="RFID #">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <img src="icons/bulsu-logo.png" alt="bulsu-logo" class="logo">
+                    <h1>LOGIN YOUR BULSU <br>E-COT ACCOUNT!</h1>
+                    <p>CLICK THE BUTTON BELOW TO LOGIN!</p>
+                    <button class="hidden" id="login">Login</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <img src="icons/bulsu-logo.png" alt="bulsu-logo" class="logo">
+                    <h1>REGISTER YOUR RFID FOR <br>BULSU E-COT ACCOUNT!</h1>
+                    <p>CLICK THE BUTTON BELOW TO REGISTER!</p>
+                    <button class="hidden" id="register">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
